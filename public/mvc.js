@@ -73,8 +73,6 @@
             xmlhttp.onreadystatechange = function(){
                 if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
                     // load the view
-                    console.log(routeObject.template)
-                    console.log(xmlhttp.responseText)
                     loadView(routeObject, viewElement, xmlhttp.responseText);
                 }
             }
