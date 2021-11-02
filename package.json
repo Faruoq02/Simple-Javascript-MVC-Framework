@@ -1,0 +1,23 @@
+{
+  "name": "simple-javascript-mvc-framework",
+  "version": "1.0.0",
+  "description": "This repository is created with the purpose to learn and enhance skillsets in javascript MVC design pattern for single page application",
+  "main": "mvc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faruoq02/Simple-Javascript-MVC-Framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faruoq02/Simple-Javascript-MVC-Framework/issues"
+  },
+  "homepage": "https://github.com/Faruoq02/Simple-Javascript-MVC-Framework#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
